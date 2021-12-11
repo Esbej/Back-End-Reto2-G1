@@ -43,7 +43,9 @@ public class GadgetService {
                 if (item.getCategory() != null) {
                     itemDb.get().setCategory(item.getCategory());
                 }
-                
+                if (item.getName() != null) {
+                    itemDb.get().setName(item.getName());
+                }                
                 if (item.getDescription() != null) {
                     itemDb.get().setDescription(item.getDescription());
                 }
